@@ -11,10 +11,10 @@ def send_mail(endereço):
 
     # criando mensagem
     mensagem = EmailMessage()
-    mensagem["Subject"] = "Consegui eba"
+    mensagem["Subject"] = "Flask Email"
     mensagem["From"] = email_adress
     mensagem["To"] = endereço
-    mensagem.set_content("Mandei pelo python este email")
+    mensagem.set_content("Mandei pelo python via Flask este email")
 
     """
     mensagem.add_alternative("""
